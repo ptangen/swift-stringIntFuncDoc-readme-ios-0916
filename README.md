@@ -54,7 +54,7 @@ Remember, a _method_ is just a function that is attached to a particular data ty
 
 Take a look at the autocomplete menu that appeared. All of the items in it are methods that you can call on `String`s. And what you see right now is only some of them! Don't worry what all of them do right now. For now, you're only interested in one that capitalizes your "Audrey" string.
 
-You can actually scroll this through this autocomplete popup. Use your mouse or trackpad to scroll through the list. Keep scrolling down until you get to the methods that start with **U**. You should see one that is called `uppercased()`. That looks like a winner!
+You can actually scroll this through this autocomplete popup. Use your mouse or trackpad to scroll through the list. Keep scrolling down until you get to the methods that start with **U**. You should see one that is called `uppercaseString`. That looks like a winner!
 
 ![Autocomplete scrolling](http://i.imgur.com/TLGiFu3.png)
 
@@ -68,10 +68,10 @@ You've just called a method on your `String`! Notice in the playground sidebar t
 
 ![AUDREY](http://i.imgur.com/NWHxVHS.png)
 
-You can see this in action by printing the value of `name.uppercased()` to the playground's console. Try saving that return value in another constant and printing it out. Here's some code to help you that you can try out in your playground:
+You can see this in action by printing the value of `name.uppercaseString` to the playground's console. Try saving that return value in another constant and printing it out. Here's some code to help you that you can try out in your playground:
 
 ```swift
-let uppercaseName = name.uppercased()
+let uppercaseName = name.uppercaseString
 print("\(name)... \(name)... \(uppercaseName)! WAKE UP!")
 // prints "Audrey... Audrey... AUDREY! WAKE UP!")
 ```
