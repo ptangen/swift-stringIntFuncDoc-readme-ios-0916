@@ -62,7 +62,7 @@ Now type `up`, so your line of code in your playground says `name.up`. You'll se
 
 ![Autocomplete: "up"](http://i.imgur.com/fMcGRRA.png)
 
-Make sure "uppercased()" is highlighted in the autocomplete menu and hit <kbd>Return</kbd>. Xcode will helpfully fill in the rest of the method name. (You could also type it out yourself, but why not let Xcode do all the boring work?)
+Make sure "uppercaseString" is highlighted in the autocomplete menu and hit <kbd>Return</kbd>. Xcode will helpfully fill in the rest of the method name. (You could also type it out yourself, but why not let Xcode do all the boring work?)
 
 You've just called a method on your `String`! Notice in the playground sidebar that the return value of that method is "AUDREY". Your string has been capitalized!
 
